@@ -1,0 +1,60 @@
+.mdl-layout__drawer{
+	box-shadow: none;
+	border: none;
+	background-color: white;
+
+}
+
+.full-page{
+	display: block; /*centering*/
+	margin: auto; /*centering*/
+	width: 80%;
+	margin-top: 1.5em; /*em is a unit of measurment that adapts to different types of display */
+}
+
+.mdl-cell.mdl-cell--8-col{
+	display: block;
+}
+ 
+.grid-title: hover, .grid-img: hover{
+	cursor: pointer;
+}
+
+a {
+	text-decoration: none;
+}
+
+ .grid-title{
+ 	text-decoration: underline;
+ }
+
+ .grid-title: hover{
+ 	background-color: black;
+ 	color: white;
+ 	text-decoration: none;
+ 	transition: background-color 1s color 1s, text-decoration 1s;
+ }
+
+.grid-img{
+	filter: grayscale(1);
+}
+
+.grid-img: hover{
+	filter: grayscale(0);
+	transition: filter 1s;
+}
+
+.video-wrap {
+	position: relative;
+	padding-bottom: 56.25%; !* 16:9 *!
+	padding-bottom: 53.25%;
+	padding-top: 25px;
+	height: 0;}
+}
+.video-wrap iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+        }
